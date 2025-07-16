@@ -1,8 +1,8 @@
 ﻿using MelonLoader;
-using UnityEngine;
+using onnxware.UI.QM;
 using onnxware;
 
-[assembly: MelonInfo(typeof(onnxware.OnnxEntry), "onnxware", "0.0.1", "nextrixvfx", null)]
+[assembly: MelonInfo(typeof(OnnxEntry), "onnxware", "0.0.1", "nextrixvfx", null)]
 [assembly: MelonGame("VRChat", "VRChat")]
 
 namespace onnxware
@@ -11,18 +11,12 @@ namespace onnxware
     {
         public override void OnInitializeMelon()
         {
-            GUI.Console.Log("Initialized");
+            TopMenu.InitializeMenu();
         }
 
         public override void OnUpdate()
         {
-            GUI.Console.RefreshMenu();
-            Components.Jetpack.Utilize();
-        }
-
-        public override void OnApplicationQuit()
-        {
-            GUI.Console.IsToggledMenu = false;
+            Components.Movement.Jetpack.Utilize();
         }
     }
 }
