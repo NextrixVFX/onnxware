@@ -15,6 +15,10 @@ namespace onnxware.UI.QM.Pages
             () => { Jetpack.Toggle(true);  },
             () => { Jetpack.Toggle(false); }, "Toggle Jetpack", false, btnImg);
 
+            QMToggleButton SpeedButton = new QMToggleButton(btn, 2f, 0f, "Speed",
+            () => { Speed.Toggle(true); },
+            () => { Speed.Toggle(false); }, "Toggle Speed", false, btnImg);
+
         }
 
     }

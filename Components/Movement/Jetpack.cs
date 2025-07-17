@@ -6,12 +6,12 @@ namespace onnxware.Components.Movement
 {
     public static class Jetpack
     {
+        public static bool jetpackEnabled = false;
+
         public static void Utilize() => ApplyJetpack();
 
         public static void Toggle(bool x) => jetpackEnabled = x;
-
-        private static bool jetpackEnabled = false;
-
+        
         private static void ApplyJetpack()
         {
             if (!jetpackEnabled)

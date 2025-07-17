@@ -23,17 +23,11 @@ namespace onnxware.ButtonAPI.QM
             }
         }
 
-        // Get all players uwu
-        public static List<VRC.Player> Players => PlayerManager.prop_PlayerManager_0.field_Private_List_1_Player_0.ToArray().ToList();
-
-        public static VRC.Player GetPlayerByDisplayName(string name) => Players.Find(plr => (plr.field_Private_APIUser_0.displayName == name));
-
         private static VRC.Player get_selected_player_name()
         {
             var textObject = GameObject.Find(LabelPaths.QuickMenu_NonFriendList_Label);
             var textComponent = textObject.GetComponent<TextMeshProUGUIEx>();
-
-            return (textObject && textComponent) ? GetPlayerByDisplayName(textComponent.text) : null;
+            return (textObject && textComponent) ? PlayerUtil.GetPlayerByDisplayName(textComponent.text) : null;
         }
 
         public static GameObject GetSelectedUserPageGrid()

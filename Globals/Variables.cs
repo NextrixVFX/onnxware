@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using VRC;
 
 namespace onnxware.Globals
 {
@@ -7,6 +8,6 @@ namespace onnxware.Globals
         public const string dataPath = "onnxware"; // client name
         public static GameObject userInterface;
         public static GameObject quickMenu;
-        public static List<VRC.Player> playerList;
+        public static List<Player> playerList;
     }
 }

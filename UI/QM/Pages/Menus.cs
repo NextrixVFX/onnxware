@@ -10,5 +10,6 @@ namespace onnxware.UI.QM.Pages
         public static QMNestedMenu World;
         public static QMNestedMenu Movement;
         public static QMNestedMenu Visual;
+        public static QMNestedMenu Exploits;
     }
 }

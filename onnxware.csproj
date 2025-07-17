@@ -38,15 +38,27 @@
 		<Compile Include="ButtonAPI\QM\QMSingleButton.cs" />
 		<Compile Include="ButtonAPI\QM\QMTabMenu.cs" />
 		<Compile Include="ButtonAPI\QM\QMToggleButton.cs" />
+		<Compile Include="Components\Exploits\LoudMic.cs" />
 		<Compile Include="Components\Movement\Jetpack.cs" />
+		<Compile Include="Components\Movement\Speed.cs" />
+		<Compile Include="Components\Tools\DebugHelper.cs" />
 		<Compile Include="Components\Tools\FileHelper.cs" />
+		<Compile Include="Components\Tools\PlayerUtil.cs" />
+		<Compile Include="Components\Tools\SceneUtil.cs" />
 		<Compile Include="Components\Tools\SpriteUtil.cs" />
+		<Compile Include="Components\Visual\BoxESP.cs" />
+		<Compile Include="Components\Visual\ESPUtil.cs" />
+		<Compile Include="Components\Visual\PrefabESP.cs" />
+		<Compile Include="Components\Visual\Renderer.cs" />
+		<Compile Include="Components\Visual\ThirdPerson.cs" />
+		<Compile Include="Components\World\ItemOrbit.cs" />
 		<Compile Include="Globals\Variables.cs" />
 		<Compile Include="OnnxEntry.cs" />
 		<Compile Include="UI\QM\Pages\Visual.cs" />
+		<Compile Include="UI\QM\Pages\Exploits.cs" />
 		<Compile Include="UI\QM\Pages\World.cs" />
 		<Compile Include="UI\QM\Pages\Movement.cs" />
-		<Compile Include="UI\QM\Pages\MenuDefinitions.cs" />
+		<Compile Include="UI\QM\Pages\Menus.cs" />
 		<Compile Include="UI\QM\TopMenu.cs" />
 	</ItemGroup>
 
@@ -69,6 +81,9 @@
 	  <Reference Include="bHapticsLib">
 	    <HintPath>..\..\..\SteamLibrary\steamapps\common\VRChat\MelonLoader\bHapticsLib.dll</HintPath>
 	  </Reference>
+	  <Reference Include="DataModel">
+	    <HintPath>..\..\..\SteamLibrary\steamapps\common\VRChat\MelonLoader\Managed\DataModel.dll</HintPath>
+	  </Reference>
 	  <Reference Include="DeviceId">
 	    <HintPath>..\..\..\SteamLibrary\steamapps\common\VRChat\MelonLoader\DeviceId.dll</HintPath>
 	  </Reference>
@@ -83,6 +98,12 @@
 	  </Reference>
 	  <Reference Include="Il2Cppmscorlib">
 	    <HintPath>..\..\..\SteamLibrary\steamapps\common\VRChat\MelonLoader\Managed\Il2Cppmscorlib.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppSystem">
+	    <HintPath>..\..\..\SteamLibrary\steamapps\common\VRChat\MelonLoader\Managed\Il2CppSystem.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppSystem.Core">
+	    <HintPath>..\..\..\SteamLibrary\steamapps\common\VRChat\MelonLoader\Managed\Il2CppSystem.Core.dll</HintPath>
 	  </Reference>
 	  <Reference Include="IndexRange">
 	    <HintPath>..\..\..\SteamLibrary\steamapps\common\VRChat\MelonLoader\IndexRange.dll</HintPath>
@@ -119,6 +140,9 @@
 	  </Reference>
 	  <Reference Include="Newtonsoft.Json">
 	    <HintPath>..\..\..\SteamLibrary\steamapps\common\VRChat\MelonLoader\Newtonsoft.Json.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Photon-DotNet">
+	    <HintPath>..\..\..\SteamLibrary\steamapps\common\VRChat\MelonLoader\Managed\Photon-DotNet.dll</HintPath>
 	  </Reference>
 	  <Reference Include="System.Buffers">
 	    <HintPath>..\..\..\SteamLibrary\steamapps\common\VRChat\MelonLoader\System.Buffers.dll</HintPath>
@@ -487,7 +511,6 @@
 
 	<ItemGroup>
 	  <Folder Include="ButtonAPI\MM\" />
-	  <Folder Include="Components\World\" />
 	  <Folder Include="UI\Internal\" />
 	</ItemGroup>
 </Project>

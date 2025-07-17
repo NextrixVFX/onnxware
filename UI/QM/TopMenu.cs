@@ -4,6 +4,7 @@ using onnxware.ButtonAPI.QM;
 using onnxware.UI.QM.Pages;
 using UnityEngine;
 using VRC.UI.Elements;
+using System.Collections;
 
 namespace onnxware.UI.QM
 {
@@ -11,13 +12,13 @@ namespace onnxware.UI.QM
     {
         private static Sprite btnBackImg;
 
-        public static void InitializeMenu()
+        public static void Init()
         {
             MelonCoroutines.Start(WaitForQM());
         }
 
         // Wait till quick menu exists.
-        private static IEnumerator<GameObject> WaitForQM()
+        private static IEnumerator WaitForQM()
         {
             while (true)
             {
@@ -42,6 +43,7 @@ namespace onnxware.UI.QM
             World.Utilize(Menus.World, btnBackImg);
             Movement.Utilize(Menus.Movement, btnBackImg);
             Visual.Utilize(Menus.Visual, btnBackImg);
+            Exploits.Utilize(Menus.Exploits, btnBackImg);
         }
 
         // Create buttons in topmenu (tab)
@@ -53,7 +55,8 @@ namespace onnxware.UI.QM
             Menus.World = new QMNestedMenu(Menus.TopMenu, 1f, 0f, "World", "World", "World Functions", useHalfButton, SpriteUtil.LoadSpriteViaVRCPath("Icons\\WorldIcon.png", 100f), btnBackImg);
             Menus.Movement = new QMNestedMenu(Menus.TopMenu, 2f, 0f, "Movement", "Movement", "Movement Functions", useHalfButton, SpriteUtil.LoadSpriteViaVRCPath("Icons\\MovementIcon.png", 100f), btnBackImg);
             Menus.Visual = new QMNestedMenu(Menus.TopMenu, 3f, 0f, "Visual", "Visual", "Visual Functions", useHalfButton, SpriteUtil.LoadSpriteViaVRCPath("Icons\\VisualIcon.png", 100f), btnBackImg);
-
+            Menus.Exploits = new QMNestedMenu(Menus.TopMenu, 4f, 0f, "Exploits", "Exploits", "Exploit Functions", useHalfButton, SpriteUtil.LoadSpriteViaVRCPath("Icons\\ExploitIcon.png", 100f), btnBackImg);
+           
             return true;
         }
     }
