@@ -35,11 +35,11 @@ namespace onnxware.Components.Visual
             
 
         // Runs in OnInitializeMelon
-        public static void Init(float delay)
+        public static void Init()
         {
             CreateLineMaterial();
             MelonCoroutines.Start(BoxESPUtil.WaitForPlayerListener(assignPlayersBox));
-            MelonLogger.Msg((isInitialized) ? "BoxESP Initialized" : "BoxESP Initialization Failed");
+            ConsoleAPI.Logger.Msg((isInitialized) ? "BoxESP Initialized" : "BoxESP Initialization Failed", (isInitialized) ? ConsoleAPI.Logger.LoggerLevel.Info : ConsoleAPI.Logger.LoggerLevel.Error);
         }
 
         private static void assignPlayersBox()
@@ -96,6 +96,9 @@ namespace onnxware.Components.Visual
                 return;
 
             Camera camera = Camera.current;
+
+            if (ThirdPerson.isToggled && ThirdPerson.thirdPersonCam.enabled)
+                camera = ThirdPerson.thirdPersonCam;
 
             // No Scene loaded
             if (!camera)

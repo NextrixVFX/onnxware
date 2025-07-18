@@ -1,8 +1,6 @@
 ﻿using VRC;
 using System.Collections;
-using UnityEngine;
 using VRC.SDKBase;
-using MelonLoader;
 using onnxware.Components.Tools;
 
 namespace onnxware.Components.Visual
@@ -26,7 +24,7 @@ namespace onnxware.Components.Visual
             // add refreshplayerlist function to the OnPlayerJoin listener
             PlayerUtil.AddActionToPlayerListener(new Action<IPlayer>(obj => 
             {
-                MelonLogger.Msg($"Player {PlayerUtil.GetPlayerByID(obj.prop_String_0).prop_VRCPlayerApi_0.displayName} Joined.");
+                ConsoleAPI.Logger.Msg($"Player {obj.prop_String_0} Joined.");
                 RefreshPlayerList(espCode);
             }));
 
@@ -35,7 +33,7 @@ namespace onnxware.Components.Visual
 
         public void RefreshPlayerList(Action espCode)
         {
-            MelonLogger.Msg("Player List Refreshed");
+            ConsoleAPI.Logger.Msg("Player List Refreshed");
 
             this.playerArray = PlayerUtil.GetAllPlayers();
             this.localPlayer = PlayerUtil.GetLocalPlayer();

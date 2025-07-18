@@ -12,15 +12,17 @@ namespace onnxware.Components.Visual
 
         public static void Toggle(bool x) => isToggled = x;
 
-        private static Camera thirdPersonCam;
+        public static Camera thirdPersonCam; // accessed by boxesp
 
         private static GameObject cameraObject;
 
-        private static float cameraDist = 3.0f;
+        public static float cameraDist = 3.0f;
+
+        public static void SliderCameraDist(float value) => cameraDist = value;
 
         public static void Utilize()
         {
-            Transform mainCameraTransform = Camera.main.transform;
+            Camera mainCameraTransform = Camera.main;
 
             if (!mainCameraTransform)
                 return;
@@ -29,8 +31,7 @@ namespace onnxware.Components.Visual
             {
                 // Camera Object
                 cameraObject = new GameObject("ThirdPersonCamera");
-                cameraObject.transform.SetParent(mainCameraTransform, false);
-                cameraObject.transform.localPosition = new Vector3(0f, 0f, -cameraDist); // behind the head
+                cameraObject.transform.SetParent(mainCameraTransform.transform, false);
                 cameraObject.transform.localRotation = Quaternion.identity;
 
                 // Camera Settings
@@ -39,6 +40,8 @@ namespace onnxware.Components.Visual
                 thirdPersonCam.fieldOfView = 60;
                 thirdPersonCam.enabled = false;
             }
+
+            cameraObject.transform.localPosition = new Vector3(0f, 0f, -cameraDist); // behind the head
 
             thirdPersonCam.enabled = isToggled;
         }

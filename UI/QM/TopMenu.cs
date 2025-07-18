@@ -44,6 +44,8 @@ namespace onnxware.UI.QM
             Movement.Utilize(Menus.Movement, btnBackImg);
             Visual.Utilize(Menus.Visual, btnBackImg);
             Exploits.Utilize(Menus.Exploits, btnBackImg);
+
+            ConsoleAPI.Logger.Msg("Created onnxware menu tab.");
         }
 
         // Create buttons in topmenu (tab)

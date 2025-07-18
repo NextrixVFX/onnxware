@@ -32,6 +32,10 @@
 		<Compile Include="ButtonAPI\DefaultVRCMenu.cs" />
 		<Compile Include="ButtonAPI\Paths.cs" />
 		<Compile Include="ButtonAPI\QM\QMButtonBase.cs" />
+		<Compile Include="ButtonAPI\QM\QMEnum.cs" />
+		<Compile Include="ButtonAPI\QM\QMSlider.cs" />
+		<Compile Include="ButtonAPI\QM\QMSliderBase.cs" />
+		<Compile Include="ButtonAPI\QM\QMEnumBase.cs" />
 		<Compile Include="ButtonAPI\QM\QMMenuBase.cs" />
 		<Compile Include="ButtonAPI\QM\QMMenuPage.cs" />
 		<Compile Include="ButtonAPI\QM\QMNestedMenu.cs" />
@@ -39,6 +43,7 @@
 		<Compile Include="ButtonAPI\QM\QMTabMenu.cs" />
 		<Compile Include="ButtonAPI\QM\QMToggleButton.cs" />
 		<Compile Include="Components\Exploits\LoudMic.cs" />
+		<Compile Include="Components\Movement\Fly.cs" />
 		<Compile Include="Components\Movement\Jetpack.cs" />
 		<Compile Include="Components\Movement\Speed.cs" />
 		<Compile Include="Components\Tools\DebugHelper.cs" />
@@ -52,6 +57,8 @@
 		<Compile Include="Components\Visual\Renderer.cs" />
 		<Compile Include="Components\Visual\ThirdPerson.cs" />
 		<Compile Include="Components\World\ItemOrbit.cs" />
+		<Compile Include="ConsoleAPI\Initialize.cs" />
+		<Compile Include="ConsoleAPI\Logger.cs" />
 		<Compile Include="Globals\Variables.cs" />
 		<Compile Include="OnnxEntry.cs" />
 		<Compile Include="UI\QM\Pages\Visual.cs" />
@@ -59,6 +66,7 @@
 		<Compile Include="UI\QM\Pages\World.cs" />
 		<Compile Include="UI\QM\Pages\Movement.cs" />
 		<Compile Include="UI\QM\Pages\Menus.cs" />
+		<Compile Include="UI\QM\QMStyling.cs" />
 		<Compile Include="UI\QM\TopMenu.cs" />
 	</ItemGroup>
 

@@ -9,5 +9,6 @@ namespace onnxware.Globals
         public static GameObject userInterface;
         public static GameObject quickMenu;
         public static List<Player> playerList;
+        public static bool Debug = true;
     }
 }

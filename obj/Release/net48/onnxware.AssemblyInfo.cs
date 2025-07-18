@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("onnxware")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3831c282897c6c3bb465e36116b12687b8651f28")]
 [assembly: System.Reflection.AssemblyProductAttribute("onnxware")]
 [assembly: System.Reflection.AssemblyTitleAttribute("onnxware")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

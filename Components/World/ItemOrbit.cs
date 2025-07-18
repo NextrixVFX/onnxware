@@ -17,6 +17,8 @@ namespace onnxware.Components.World
 
         private static VRCPickup[] pickups;
 
+        public static int enumIndex = 0;
+
         public static void Toggle(string name, bool x)
         {
             if (x)
@@ -36,18 +38,7 @@ namespace onnxware.Components.World
             pickups = SceneUtil.GetPickups();
             localPlayer = PlayerUtil.GetLocalPlayer();
 
-            int[,] pSort1 = // swastika
-            {
-                { 1, 1, 1, 1, 0, 0, 1 },
-                { 0, 0, 0, 1, 0, 0, 1 },
-                { 0, 0, 0, 1, 0, 0, 1 },
-                { 1, 1, 1, 1, 1, 1, 1 },
-                { 1, 0, 0, 1, 0, 0, 0 },
-                { 1, 0, 0, 1, 0, 0, 0 },
-                { 1, 0, 0, 1, 1, 1, 1 }
-            };
-
-            int[,] pSort2 = // idk
+            int[,] pSort1 = // cubic
             {
                 { 1, 1, 1, 1, 1, 1, 1 },
                 { 1, 0, 0, 1, 0, 0, 1 },
@@ -58,7 +49,32 @@ namespace onnxware.Components.World
                 { 1, 1, 1, 1, 1, 1, 1 }
             };
 
-            int[,] selectedSort = pSort2;
+            int[,] pSort2 = // cross
+            {
+                { 0, 0, 0, 1, 0, 0, 0 },
+                { 0, 0, 0, 1, 0, 0, 0 },
+                { 0, 0, 0, 1, 0, 0, 0 },
+                { 1, 1, 1, 1, 1, 1, 1 },
+                { 0, 0, 0, 1, 0, 0, 0 },
+                { 0, 0, 0, 1, 0, 0, 0 },
+                { 0, 0, 0, 1, 0, 0, 0 }
+            };
+
+            int[,] pSort3 = // swastika
+            {
+                { 1, 1, 1, 1, 0, 0, 1 },
+                { 0, 0, 0, 1, 0, 0, 1 },
+                { 0, 0, 0, 1, 0, 0, 1 },
+                { 1, 1, 1, 1, 1, 1, 1 },
+                { 1, 0, 0, 1, 0, 0, 0 },
+                { 1, 0, 0, 1, 0, 0, 0 },
+                { 1, 0, 0, 1, 1, 1, 1 }
+            };
+
+
+            List<int[,]> SortingMethods = [pSort1, pSort2, pSort3];
+
+            int[,] selectedSort = SortingMethods[enumIndex];
 
             int index = 0;
 

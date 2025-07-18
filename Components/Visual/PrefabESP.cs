@@ -34,10 +34,10 @@ namespace onnxware.Components.Visual
                 onDisable();
         }
 
-        public static void Init(float delay)
+        public static void Init()
         {
             MelonCoroutines.Start(PrefabESPUtil.WaitForPlayerListener(assignPrefabToPlayers));
-            MelonLogger.Msg((isInitialized) ? "PrefabESP Initialized" : "PrefabESP Initialization Failed");
+            ConsoleAPI.Logger.Msg((isInitialized) ? "PrefabESP Initialized" : "PrefabESP Initialization Failed", (isInitialized) ? ConsoleAPI.Logger.LoggerLevel.Info : ConsoleAPI.Logger.LoggerLevel.Error);
         }
 
         private static void assignPrefabToPlayers()
@@ -60,30 +60,30 @@ namespace onnxware.Components.Visual
                 
                 cube.name = "TorsoCube";
                 cube.transform.SetParent(rootBone, false);
+                
                 cube.GetComponent<Collider>().enabled = false;
 
                 Vector3 playerSize = Vector3.Lerp(rootBone.position, headBone.position, 0.5f);
 
-                playerSize.x = Math.Min(playerSize.x, 2f);
-                playerSize.y = Math.Min(playerSize.y, 2f);
-                playerSize.z = Math.Min(playerSize.z, 2f);
+                playerSize.x = Math.Min(playerSize.x, 5f);
+                playerSize.y = Math.Min(playerSize.y, 6f);
+                playerSize.z = Math.Min(playerSize.z, 5f);
 
                 Bounds boundingBox = new Bounds(playerSize, boxDimensions);
 
                 // Scale and position cube
                 cube.transform.localPosition = Vector3.zero;
-                cube.transform.localRotation = Quaternion.identity;
+                cube.transform.rotation.Set(0, 0, 0, 0);  // cube.transform.localRotation = Quaternion.identity;
                 cube.transform.localScale = boundingBox.size;
 
                 // Optional: change cube appearance
-                Shader overlayShader = Shader.Find("Hidden/Internal-Colored");
+                Shader overlayShader = Shader.Find("Standard");
                 Material overlayMat = new Material(overlayShader);
                 overlayMat.SetInt("_ZWrite", 0);
-                overlayMat.SetInt("_ZTest", (int)UnityEngine.Rendering.CompareFunction.Always);
-                overlayMat.SetColor("_Color", Color.red);
+                overlayMat.SetInt("_ZTest", 8);
+                overlayMat.SetColor("_Color", new Color(1f, 0f, 0f, 0.35f));
                 overlayMat.renderQueue = 32767;
                 cube.GetComponent<UnityEngine.Renderer>().material = overlayMat;
-
 
                 cubeList.Add(cube);
             }
@@ -92,7 +92,6 @@ namespace onnxware.Components.Visual
 
         private static void onDisable()
         {
-
             if (cubeList.Count == 0)
                 return;
 
@@ -103,7 +102,6 @@ namespace onnxware.Components.Visual
                     cubeList.RemoveAt(i);
                     continue;
                 }
-                    
 
                 //cubeList[i].transform.SetParent(null);
                 cubeList[i].transform.localPosition = new Vector3(int.MaxValue, int.MaxValue, int.MaxValue);

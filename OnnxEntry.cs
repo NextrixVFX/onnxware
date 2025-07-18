@@ -3,6 +3,7 @@ using onnxware.UI.QM;
 using onnxware;
 using onnxware.Components.Tools;
 using System.Reflection;
+using onnxware.Globals;
 
 [assembly: MelonInfo(typeof(OnnxEntry), "onnxware", "0.0.1", "nextrixvfx", null)]
 [assembly: MelonGame("VRChat", "VRChat")]
@@ -13,24 +14,26 @@ namespace onnxware
     {
         public override void OnInitializeMelon()
         {
-            MelonLogger.Msg("Initialized onnxware");
+
+            if (Variables.Debug)
+                ConsoleAPI.Initialize.consoleCreated = ConsoleAPI.Initialize.AllocConsole();
+
+            ConsoleAPI.Logger.Msg("Initialized onnxware!", ConsoleAPI.Logger.LoggerLevel.Info, ConsoleColor.Green);
 
             // Menu
             TopMenu.Init();
 
             //Visual
-            Components.Visual.BoxESP.Init(5f);
-
-            Components.Visual.PrefabESP.Init(5f);
-
-            
-
+            Components.Visual.BoxESP.Init();
+            Components.Visual.PrefabESP.Init();
         }
 
         public override void OnUpdate()
         {
             // Movement
             Components.Movement.Jetpack.Utilize();
+            Components.Movement.Speed.Utilize();
+            Components.Movement.Fly.Utilize();
 
             // World
             Components.World.ItemOrbit.Utilize();
@@ -47,7 +50,7 @@ namespace onnxware
 
         public override void OnSceneWasLoaded(int buildIndex, string sceneName)
         {
-            MelonLogger.Msg("Loaded Scene ->\t" + sceneName);
+            ConsoleAPI.Logger.Msg("Loaded Scene\t" + sceneName, ConsoleAPI.Logger.LoggerLevel.Info, ConsoleColor.Blue);
 
             // Get all scene data (ex: pickups)
             SceneUtil.Init();
@@ -55,6 +58,8 @@ namespace onnxware
 
         public override void OnApplicationQuit()
         {
+            ConsoleAPI.Logger.Msg("Exiting VRChat! Disabling Cheats...", ConsoleAPI.Logger.LoggerLevel.Info, ConsoleColor.Red);
+
             // World
             Components.World.ItemOrbit.Toggle("", false);
 
@@ -70,6 +75,15 @@ namespace onnxware
 
             // Exploits
             Components.Exploits.LoudMic.Toggle(false);
+
+            ConsoleAPI.Logger.Msg("All Cheats Disabled.");
+
+            // ConsoleAPI
+
+            if (Variables.Debug)
+                ConsoleAPI.Initialize.FreeConsole();
+
+            ConsoleAPI.Initialize.consoleCreated = false;
         }
     }
 }

@@ -15,23 +15,9 @@ namespace onnxware.Components.Tools
             try { code(); }
             catch (Exception ex)
             {
-                MelonLogger.Error($"[DebugLine] Exception caught: {ex.Message}");
-                MelonLogger.Error(ex.StackTrace);
+                ConsoleAPI.Logger.Error($"[DebugLine] Exception caught: {ex.Message}");
+                ConsoleAPI.Logger.Error(ex.StackTrace);
             }
         }
     }
-
-    /*
-    public class ExampleDebug
-    {
-        public void Example()
-        {
-            DebugHelper dh = new DebugHelper();
-            dh.DebugLine(() =>
-            {
-                MelonLogger.Msg(5 / 0);
-            });
-        }
-    }
-    */
 }

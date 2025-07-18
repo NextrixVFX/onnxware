@@ -10,14 +10,10 @@ namespace onnxware.Components.Movement
 
         public static float multiplier = 3f;
 
-        private static float walkSpeed = 0f;
+        public static void Toggle(bool x) => isToggled = x;
 
-        private static float runSpeed = 0f;
-
-        public static void Toggle(bool x)
+        public static void Utilize()
         {
-            isToggled = x;
-
             VRCPlayerApi localPlayer = PlayerUtil.GetLocalPlayer();
 
             if (localPlayer == null)
@@ -25,14 +21,8 @@ namespace onnxware.Components.Movement
 
             float s = (isToggled) ? multiplier : 1f;
 
-            if (walkSpeed == 0 && runSpeed == 0)
-            {
-                walkSpeed = localPlayer.GetWalkSpeed();
-                runSpeed = localPlayer.GetRunSpeed();
-            }
-
-            localPlayer.SetWalkSpeed(walkSpeed * s);
-            localPlayer.SetRunSpeed(runSpeed * s);
+            localPlayer.SetWalkSpeed(2 * s);
+            localPlayer.SetRunSpeed(4 * s);
         }
     }
 }

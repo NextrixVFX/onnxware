@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = onnxware
-build_property.ProjectDir = D:\Spooky Shit\MelonLoader Mods\onnxware\
+build_property.ProjectDir = D:\Github\onnxware\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
