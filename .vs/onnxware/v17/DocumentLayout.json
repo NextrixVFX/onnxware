@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Spooky Shit\\MelonLoader Mods\\onnxware\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|d:\\spooky shit\\melonloader mods\\onnxware\\components\\visual\\thirdperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|solutionrelative:components\\visual\\thirdperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|d:\\spooky shit\\melonloader mods\\onnxware\\components\\visual\\prefabesp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|solutionrelative:components\\visual\\prefabesp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|d:\\spooky shit\\melonloader mods\\onnxware\\components\\visual\\esputil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|solutionrelative:components\\visual\\esputil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,19 +31,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ThirdPerson.cs",
+              "DocumentMoniker": "D:\\Spooky Shit\\MelonLoader Mods\\onnxware\\Components\\Visual\\ThirdPerson.cs",
+              "RelativeDocumentMoniker": "Components\\Visual\\ThirdPerson.cs",
+              "ToolTip": "D:\\Spooky Shit\\MelonLoader Mods\\onnxware\\Components\\Visual\\ThirdPerson.cs",
+              "RelativeToolTip": "Components\\Visual\\ThirdPerson.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T21:13:38.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PrefabESP.cs",
+              "DocumentMoniker": "D:\\Spooky Shit\\MelonLoader Mods\\onnxware\\Components\\Visual\\PrefabESP.cs",
+              "RelativeDocumentMoniker": "Components\\Visual\\PrefabESP.cs",
+              "ToolTip": "D:\\Spooky Shit\\MelonLoader Mods\\onnxware\\Components\\Visual\\PrefabESP.cs",
+              "RelativeToolTip": "Components\\Visual\\PrefabESP.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwDAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T21:03:58.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ESPUtil.cs",
               "DocumentMoniker": "D:\\Spooky Shit\\MelonLoader Mods\\onnxware\\Components\\Visual\\ESPUtil.cs",
               "RelativeDocumentMoniker": "Components\\Visual\\ESPUtil.cs",
               "ToolTip": "D:\\Spooky Shit\\MelonLoader Mods\\onnxware\\Components\\Visual\\ESPUtil.cs",
               "RelativeToolTip": "Components\\Visual\\ESPUtil.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAqwB4AAAAQAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwB4AAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T10:00:02.923Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "PlayerUtil.cs",
               "DocumentMoniker": "D:\\Spooky Shit\\MelonLoader Mods\\onnxware\\Components\\Tools\\PlayerUtil.cs",
               "RelativeDocumentMoniker": "Components\\Tools\\PlayerUtil.cs",
