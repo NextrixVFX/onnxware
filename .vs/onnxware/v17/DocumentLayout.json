@@ -3,52 +3,44 @@
   "WorkspaceRootPath": "D:\\Github\\onnxware\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|d:\\github\\onnxware\\ui\\qm\\pages\\visual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|solutionrelative:ui\\qm\\pages\\visual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|d:\\github\\onnxware\\components\\patches\\vrchatplus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|solutionrelative:components\\patches\\vrchatplus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|d:\\github\\onnxware\\components\\visual\\thirdperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|solutionrelative:components\\visual\\thirdperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|d:\\github\\onnxware\\onnxentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|solutionrelative:onnxentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|d:\\github\\onnxware\\ui\\qm\\pages\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|solutionrelative:ui\\qm\\pages\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|d:\\github\\onnxware\\buttonapi\\qm\\qmlabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|solutionrelative:buttonapi\\qm\\qmlabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|d:\\github\\onnxware\\ui\\qm\\pages\\world.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|solutionrelative:ui\\qm\\pages\\world.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|d:\\github\\onnxware\\ui\\qm\\pages\\exploits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|solutionrelative:ui\\qm\\pages\\exploits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|d:\\github\\onnxware\\components\\world\\itemorbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|solutionrelative:components\\world\\itemorbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|d:\\github\\onnxware\\ui\\qm\\topmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|solutionrelative:ui\\qm\\topmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|d:\\github\\onnxware\\components\\visual\\boxesp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|solutionrelative:components\\visual\\boxesp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|d:\\github\\onnxware\\components\\visual\\renderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|solutionrelative:components\\visual\\renderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|d:\\github\\onnxware\\buttonapi\\qm\\qmenumbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|solutionrelative:buttonapi\\qm\\qmenumbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|d:\\github\\onnxware\\buttonapi\\qm\\qmslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|solutionrelative:buttonapi\\qm\\qmslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|d:\\github\\onnxware\\buttonapi\\qm\\qmenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|solutionrelative:buttonapi\\qm\\qmenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|d:\\github\\onnxware\\buttonapi\\apiutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|solutionrelative:buttonapi\\apiutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|d:\\github\\onnxware\\buttonapi\\paths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|solutionrelative:buttonapi\\paths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|d:\\github\\onnxware\\components\\movement\\fly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|solutionrelative:components\\movement\\fly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|d:\\github\\onnxware\\ui\\qm\\qmstyling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|solutionrelative:ui\\qm\\qmstyling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|d:\\github\\onnxware\\ui\\qm\\pages\\world.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|solutionrelative:ui\\qm\\pages\\world.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|d:\\github\\onnxware\\components\\tools\\playerutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4483FC7-BC54-4D4B-B45B-B3CEB8C2D898}|onnxware.csproj|solutionrelative:components\\tools\\playerutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,157 +55,131 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Visual.cs",
-              "DocumentMoniker": "D:\\Github\\onnxware\\UI\\QM\\Pages\\Visual.cs",
-              "RelativeDocumentMoniker": "UI\\QM\\Pages\\Visual.cs",
-              "ToolTip": "D:\\Github\\onnxware\\UI\\QM\\Pages\\Visual.cs",
-              "RelativeToolTip": "UI\\QM\\Pages\\Visual.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Title": "VRChatPlus.cs",
+              "DocumentMoniker": "D:\\Github\\onnxware\\Components\\Patches\\VRChatPlus.cs",
+              "RelativeDocumentMoniker": "Components\\Patches\\VRChatPlus.cs",
+              "ToolTip": "D:\\Github\\onnxware\\Components\\Patches\\VRChatPlus.cs",
+              "RelativeToolTip": "Components\\Patches\\VRChatPlus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T21:05:39.825Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Renderer.cs",
-              "DocumentMoniker": "D:\\Github\\onnxware\\Components\\Visual\\Renderer.cs",
-              "RelativeDocumentMoniker": "Components\\Visual\\Renderer.cs",
-              "ToolTip": "D:\\Github\\onnxware\\Components\\Visual\\Renderer.cs",
-              "RelativeToolTip": "Components\\Visual\\Renderer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T20:57:32.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ThirdPerson.cs",
-              "DocumentMoniker": "D:\\Github\\onnxware\\Components\\Visual\\ThirdPerson.cs",
-              "RelativeDocumentMoniker": "Components\\Visual\\ThirdPerson.cs",
-              "ToolTip": "D:\\Github\\onnxware\\Components\\Visual\\ThirdPerson.cs",
-              "RelativeToolTip": "Components\\Visual\\ThirdPerson.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwCEAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T20:57:02.72Z",
+              "WhenOpened": "2025-07-21T00:38:27.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "BoxESP.cs",
-              "DocumentMoniker": "D:\\Github\\onnxware\\Components\\Visual\\BoxESP.cs",
-              "RelativeDocumentMoniker": "Components\\Visual\\BoxESP.cs",
-              "ToolTip": "D:\\Github\\onnxware\\Components\\Visual\\BoxESP.cs",
-              "RelativeToolTip": "Components\\Visual\\BoxESP.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAIwGIAAAAAAAAA",
+              "Title": "ApiUtils.cs",
+              "DocumentMoniker": "D:\\Github\\onnxware\\ButtonAPI\\ApiUtils.cs",
+              "RelativeDocumentMoniker": "ButtonAPI\\ApiUtils.cs",
+              "ToolTip": "D:\\Github\\onnxware\\ButtonAPI\\ApiUtils.cs",
+              "RelativeToolTip": "ButtonAPI\\ApiUtils.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAtwDgAAACYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T20:56:32.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ItemOrbit.cs",
-              "DocumentMoniker": "D:\\Github\\onnxware\\Components\\World\\ItemOrbit.cs",
-              "RelativeDocumentMoniker": "Components\\World\\ItemOrbit.cs",
-              "ToolTip": "D:\\Github\\onnxware\\Components\\World\\ItemOrbit.cs",
-              "RelativeToolTip": "Components\\World\\ItemOrbit.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T20:35:05.272Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "World.cs",
-              "DocumentMoniker": "D:\\Github\\onnxware\\UI\\QM\\Pages\\World.cs",
-              "RelativeDocumentMoniker": "UI\\QM\\Pages\\World.cs",
-              "ToolTip": "D:\\Github\\onnxware\\UI\\QM\\Pages\\World.cs",
-              "RelativeToolTip": "UI\\QM\\Pages\\World.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T20:31:29.484Z",
+              "WhenOpened": "2025-07-20T23:26:48.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "QMSlider.cs",
-              "DocumentMoniker": "D:\\Github\\onnxware\\ButtonAPI\\QM\\QMSlider.cs",
-              "RelativeDocumentMoniker": "ButtonAPI\\QM\\QMSlider.cs",
-              "ToolTip": "D:\\Github\\onnxware\\ButtonAPI\\QM\\QMSlider.cs",
-              "RelativeToolTip": "ButtonAPI\\QM\\QMSlider.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Title": "World.cs",
+              "DocumentMoniker": "D:\\Github\\onnxware\\UI\\QM\\Pages\\World.cs",
+              "RelativeDocumentMoniker": "UI\\QM\\Pages\\World.cs",
+              "ToolTip": "D:\\Github\\onnxware\\UI\\QM\\Pages\\World.cs",
+              "RelativeToolTip": "UI\\QM\\Pages\\World.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T20:19:00.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Fly.cs",
-              "DocumentMoniker": "D:\\Github\\onnxware\\Components\\Movement\\Fly.cs",
-              "RelativeDocumentMoniker": "Components\\Movement\\Fly.cs",
-              "ToolTip": "D:\\Github\\onnxware\\Components\\Movement\\Fly.cs",
-              "RelativeToolTip": "Components\\Movement\\Fly.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T19:53:27.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "QMEnumBase.cs",
-              "DocumentMoniker": "D:\\Github\\onnxware\\ButtonAPI\\QM\\QMEnumBase.cs",
-              "RelativeDocumentMoniker": "ButtonAPI\\QM\\QMEnumBase.cs",
-              "ToolTip": "D:\\Github\\onnxware\\ButtonAPI\\QM\\QMEnumBase.cs",
-              "RelativeToolTip": "ButtonAPI\\QM\\QMEnumBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T19:39:28.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Paths.cs",
-              "DocumentMoniker": "D:\\Github\\onnxware\\ButtonAPI\\Paths.cs",
-              "RelativeDocumentMoniker": "ButtonAPI\\Paths.cs",
-              "ToolTip": "D:\\Github\\onnxware\\ButtonAPI\\Paths.cs",
-              "RelativeToolTip": "ButtonAPI\\Paths.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAuwBUAAADsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T19:31:42.929Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Movement.cs",
-              "DocumentMoniker": "D:\\Github\\onnxware\\UI\\QM\\Pages\\Movement.cs",
-              "RelativeDocumentMoniker": "UI\\QM\\Pages\\Movement.cs",
-              "ToolTip": "D:\\Github\\onnxware\\UI\\QM\\Pages\\Movement.cs",
-              "RelativeToolTip": "UI\\QM\\Pages\\Movement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T19:28:19.583Z",
+              "WhenOpened": "2025-07-20T16:39:02.284Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "QMEnum.cs",
-              "DocumentMoniker": "D:\\Github\\onnxware\\ButtonAPI\\QM\\QMEnum.cs",
-              "RelativeDocumentMoniker": "ButtonAPI\\QM\\QMEnum.cs",
-              "ToolTip": "D:\\Github\\onnxware\\ButtonAPI\\QM\\QMEnum.cs",
-              "RelativeToolTip": "ButtonAPI\\QM\\QMEnum.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAgwF4AAAAqAAAA",
+              "Title": "PlayerUtil.cs",
+              "DocumentMoniker": "D:\\Github\\onnxware\\Components\\Tools\\PlayerUtil.cs",
+              "RelativeDocumentMoniker": "Components\\Tools\\PlayerUtil.cs",
+              "ToolTip": "D:\\Github\\onnxware\\Components\\Tools\\PlayerUtil.cs",
+              "RelativeToolTip": "Components\\Tools\\PlayerUtil.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAowCoAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T18:48:48.991Z",
+              "WhenOpened": "2025-07-19T20:12:37.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TopMenu.cs",
+              "DocumentMoniker": "D:\\Github\\onnxware\\UI\\QM\\TopMenu.cs",
+              "RelativeDocumentMoniker": "UI\\QM\\TopMenu.cs",
+              "ToolTip": "D:\\Github\\onnxware\\UI\\QM\\TopMenu.cs",
+              "RelativeToolTip": "UI\\QM\\TopMenu.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAIwEEAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T19:57:09.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Paths.cs",
+              "DocumentMoniker": "D:\\Github\\onnxware\\ButtonAPI\\Paths.cs",
+              "RelativeDocumentMoniker": "ButtonAPI\\Paths.cs",
+              "ToolTip": "D:\\Github\\onnxware\\ButtonAPI\\Paths.cs",
+              "RelativeToolTip": "ButtonAPI\\Paths.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACkAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T19:07:13.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QMStyling.cs",
+              "DocumentMoniker": "D:\\Github\\onnxware\\UI\\QM\\QMStyling.cs",
+              "RelativeDocumentMoniker": "UI\\QM\\QMStyling.cs",
+              "ToolTip": "D:\\Github\\onnxware\\UI\\QM\\QMStyling.cs",
+              "RelativeToolTip": "UI\\QM\\QMStyling.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAD4AAACNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T19:57:06.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OnnxEntry.cs",
+              "DocumentMoniker": "D:\\Github\\onnxware\\OnnxEntry.cs",
+              "RelativeDocumentMoniker": "OnnxEntry.cs",
+              "ToolTip": "D:\\Github\\onnxware\\OnnxEntry.cs",
+              "RelativeToolTip": "OnnxEntry.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T20:17:36.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Exploits.cs",
+              "DocumentMoniker": "D:\\Github\\onnxware\\UI\\QM\\Pages\\Exploits.cs",
+              "RelativeDocumentMoniker": "UI\\QM\\Pages\\Exploits.cs",
+              "ToolTip": "D:\\Github\\onnxware\\UI\\QM\\Pages\\Exploits.cs",
+              "RelativeToolTip": "UI\\QM\\Pages\\Exploits.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T19:02:59.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QMLabel.cs",
+              "DocumentMoniker": "D:\\Github\\onnxware\\ButtonAPI\\QM\\QMLabel.cs",
+              "RelativeDocumentMoniker": "ButtonAPI\\QM\\QMLabel.cs",
+              "ToolTip": "D:\\Github\\onnxware\\ButtonAPI\\QM\\QMLabel.cs",
+              "RelativeToolTip": "ButtonAPI\\QM\\QMLabel.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowDAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T17:59:50.228Z",
               "EditorCaption": ""
             }
           ]

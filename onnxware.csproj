@@ -33,6 +33,7 @@
 		<Compile Include="ButtonAPI\Paths.cs" />
 		<Compile Include="ButtonAPI\QM\QMButtonBase.cs" />
 		<Compile Include="ButtonAPI\QM\QMEnum.cs" />
+		<Compile Include="ButtonAPI\QM\QMLabel.cs" />
 		<Compile Include="ButtonAPI\QM\QMSlider.cs" />
 		<Compile Include="ButtonAPI\QM\QMSliderBase.cs" />
 		<Compile Include="ButtonAPI\QM\QMEnumBase.cs" />
@@ -46,6 +47,7 @@
 		<Compile Include="Components\Movement\Fly.cs" />
 		<Compile Include="Components\Movement\Jetpack.cs" />
 		<Compile Include="Components\Movement\Speed.cs" />
+		<Compile Include="Components\Patches\VRChatPlus.cs" />
 		<Compile Include="Components\Tools\DebugHelper.cs" />
 		<Compile Include="Components\Tools\FileHelper.cs" />
 		<Compile Include="Components\Tools\PlayerUtil.cs" />

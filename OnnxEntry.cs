@@ -2,6 +2,7 @@
 using onnxware.UI.QM;
 using onnxware;
 using onnxware.Components.Tools;
+using onnxware.Components.Patches;
 using System.Reflection;
 using onnxware.Globals;
 
@@ -22,6 +23,12 @@ namespace onnxware
 
             // Menu
             TopMenu.Init();
+
+            // Patches
+            VRChatPlus.Initialize();
+
+            // Player Events
+            MelonCoroutines.Start(PlayerUtil.WaitForPlayerListener());
 
             //Visual
             Components.Visual.BoxESP.Init();

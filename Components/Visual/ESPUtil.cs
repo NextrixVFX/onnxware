@@ -19,16 +19,9 @@ namespace onnxware.Components.Visual
             Init(espCode);
         }
 
-        public bool Init(Action espCode)
+        public void Init(Action espCode)
         {
-            // add refreshplayerlist function to the OnPlayerJoin listener
-            PlayerUtil.AddActionToPlayerListener(new Action<IPlayer>(obj => 
-            {
-                ConsoleAPI.Logger.Msg($"Player {obj.prop_String_0} Joined.");
-                RefreshPlayerList(espCode);
-            }));
-
-            return true; // todo
+            PlayerUtil.OnPlayerJoin(obj => RefreshPlayerList(espCode));
         }
 
         public void RefreshPlayerList(Action espCode)

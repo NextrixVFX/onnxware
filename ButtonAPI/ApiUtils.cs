@@ -48,11 +48,13 @@ namespace onnxware.ButtonAPI.QM
         private static GameObject _qmMenuTemplate;
         private static GameObject _qmTabTemplate;
         private static GameObject _qmSliderTemplate;
+        private static GameObject _qmLabelTemplate;
         private static GameObject _qmEnumTemplate;
         private static GameObject _qmButtonTemplate;
 
         public static GameObject GetQMMenuTemplate() => (_qmMenuTemplate) ? _qmMenuTemplate : _qmMenuTemplate = QuickMenu.transform.Find(MenuPaths.QuickMenu_Dashboard_Menu).gameObject;
         public static GameObject GetQMTabButtonTemplate() => (_qmTabTemplate) ? _qmTabTemplate : _qmTabTemplate = QuickMenu.transform.Find(ButtonPaths.QuickMenu_Settings_Tab).gameObject;
+        public static GameObject GetQMLabelTemplate() => (_qmLabelTemplate) ? _qmLabelTemplate : _qmLabelTemplate = QuickMenu.transform.Find(LabelPaths.QuickMenu_SettingsHeader_Label).gameObject;
         public static GameObject GetQMEnumTemplate() => (_qmEnumTemplate) ? _qmEnumTemplate : _qmEnumTemplate = QuickMenu.transform.Find(EnumPaths.QuickMenu_NameplateVisibility_Enum).gameObject;
         public static GameObject GetQMSliderTemplate() => (_qmSliderTemplate) ? _qmSliderTemplate : _qmSliderTemplate = QuickMenu.transform.Find(SliderPaths.QuickMenu_AvatarCullingBeyond_Slider).gameObject;
         public static GameObject GetQMButtonTemplate() => (_qmButtonTemplate) ? _qmButtonTemplate : _qmButtonTemplate = QuickMenu.transform.Find(ButtonPaths.QuickMenu_RejoinWorld_Button).gameObject;
