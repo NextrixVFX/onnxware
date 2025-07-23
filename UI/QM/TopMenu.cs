@@ -5,12 +5,13 @@ using onnxware.UI.QM.Pages;
 using UnityEngine;
 using VRC.UI.Elements;
 using System.Collections;
+using onnxware.UI.QM.Dashboard;
 
 namespace onnxware.UI.QM
 {
     public class TopMenu
     {
-        private static Sprite btnBackImg;
+        private static Sprite _btnBackImg;
 
         public static void Init()
         {
@@ -23,12 +24,12 @@ namespace onnxware.UI.QM
             while (true)
             {
                 if (GetQuickMenu() != null)
-                { 
-                    QMStyling.Initialize();
+                {
+                    
                     CreateMenu(); 
                     yield break;
                 }
-
+                
                 yield return null;
             }
         }
@@ -37,17 +38,20 @@ namespace onnxware.UI.QM
 
         private static void CreateMenu()
         {
-            if (!btnBackImg)
-                btnBackImg = SpriteUtil.LoadSpriteViaVRCPath("Icons\\ButtonBackground.png", 100f);
+            if (!_btnBackImg)
+                _btnBackImg = SpriteUtil.LoadSpriteViaVRCPath("Icons\\ButtonBackground.png", 100f);
 
+            QMStyling.Initialize();
+            PlayerSelectionMenu.Initialize(_btnBackImg);
+            
             if (!CreateTopMenu())
                 return; // failed to create menu
 
             // Create contents of menus
-            World.Utilize(Menus.World, btnBackImg);
-            Movement.Utilize(Menus.Movement, btnBackImg);
-            Visual.Utilize(Menus.Visual, btnBackImg);
-            Exploits.Utilize(Menus.Exploits, btnBackImg);
+            World.Utilize(Menus.World, _btnBackImg);
+            Movement.Utilize(Menus.Movement, _btnBackImg);
+            Visual.Utilize(Menus.Visual, _btnBackImg);
+            Exploits.Utilize(Menus.Exploits, _btnBackImg);
 
             ConsoleAPI.Logger.Msg("Created onnxware menu tab.");
         }
@@ -58,10 +62,10 @@ namespace onnxware.UI.QM
             bool useHalfButton = false;
 
             Menus.TopMenu = new QMTabMenu("onnxware", "onnxware", SpriteUtil.LoadSpriteViaVRCPath("Icons\\OnnxIcon.png", 100f));
-            Menus.World = new QMNestedMenu(Menus.TopMenu, 1f, 0f, "World", "World", "World Functions", useHalfButton, SpriteUtil.LoadSpriteViaVRCPath("Icons\\WorldIcon.png", 100f), btnBackImg);
-            Menus.Movement = new QMNestedMenu(Menus.TopMenu, 2f, 0f, "Movement", "Movement", "Movement Functions", useHalfButton, SpriteUtil.LoadSpriteViaVRCPath("Icons\\MovementIcon.png", 100f), btnBackImg);
-            Menus.Visual = new QMNestedMenu(Menus.TopMenu, 3f, 0f, "Visual", "Visual", "Visual Functions", useHalfButton, SpriteUtil.LoadSpriteViaVRCPath("Icons\\VisualIcon.png", 100f), btnBackImg);
-            Menus.Exploits = new QMNestedMenu(Menus.TopMenu, 4f, 0f, "Exploits", "Exploits", "Exploit Functions", useHalfButton, SpriteUtil.LoadSpriteViaVRCPath("Icons\\ExploitIcon.png", 100f), btnBackImg);
+            Menus.World = new QMNestedMenu(Menus.TopMenu, 1f, 0f, "World", "World", "World Functions", useHalfButton, SpriteUtil.LoadSpriteViaVRCPath("Icons\\WorldIcon.png", 100f), _btnBackImg);
+            Menus.Movement = new QMNestedMenu(Menus.TopMenu, 2f, 0f, "Movement", "Movement", "Movement Functions", useHalfButton, SpriteUtil.LoadSpriteViaVRCPath("Icons\\MovementIcon.png", 100f), _btnBackImg);
+            Menus.Visual = new QMNestedMenu(Menus.TopMenu, 3f, 0f, "Visual", "Visual", "Visual Functions", useHalfButton, SpriteUtil.LoadSpriteViaVRCPath("Icons\\VisualIcon.png", 100f), _btnBackImg);
+            Menus.Exploits = new QMNestedMenu(Menus.TopMenu, 4f, 0f, "Exploits", "Exploits", "Exploit Functions", useHalfButton, SpriteUtil.LoadSpriteViaVRCPath("Icons\\ExploitIcon.png", 100f), _btnBackImg);
 
             QMLabel testLabel = new(Menus.TopMenu, new Rect(100f, 600f, 200f, 50f), "<color=#998822>Test Label</color>", 24);
             

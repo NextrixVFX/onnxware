@@ -33,6 +33,7 @@
 		<Compile Include="ButtonAPI\Paths.cs" />
 		<Compile Include="ButtonAPI\QM\QMButtonBase.cs" />
 		<Compile Include="ButtonAPI\QM\QMEnum.cs" />
+		<Compile Include="ButtonAPI\QM\QMFoldout.cs" />
 		<Compile Include="ButtonAPI\QM\QMLabel.cs" />
 		<Compile Include="ButtonAPI\QM\QMSlider.cs" />
 		<Compile Include="ButtonAPI\QM\QMSliderBase.cs" />
@@ -43,10 +44,12 @@
 		<Compile Include="ButtonAPI\QM\QMSingleButton.cs" />
 		<Compile Include="ButtonAPI\QM\QMTabMenu.cs" />
 		<Compile Include="ButtonAPI\QM\QMToggleButton.cs" />
+		<Compile Include="Components\Exploits\ForceClone.cs" />
 		<Compile Include="Components\Exploits\LoudMic.cs" />
 		<Compile Include="Components\Movement\Fly.cs" />
 		<Compile Include="Components\Movement\Jetpack.cs" />
 		<Compile Include="Components\Movement\Speed.cs" />
+		<Compile Include="Components\Movement\Teleport.cs" />
 		<Compile Include="Components\Patches\VRChatPlus.cs" />
 		<Compile Include="Components\Tools\DebugHelper.cs" />
 		<Compile Include="Components\Tools\FileHelper.cs" />
@@ -63,12 +66,13 @@
 		<Compile Include="ConsoleAPI\Logger.cs" />
 		<Compile Include="Globals\Variables.cs" />
 		<Compile Include="OnnxEntry.cs" />
+		<Compile Include="UI\QM\Dashboard\PlayerSelectionMenu.cs" />
+		<Compile Include="UI\QM\Dashboard\QMStyling.cs" />
 		<Compile Include="UI\QM\Pages\Visual.cs" />
 		<Compile Include="UI\QM\Pages\Exploits.cs" />
 		<Compile Include="UI\QM\Pages\World.cs" />
 		<Compile Include="UI\QM\Pages\Movement.cs" />
 		<Compile Include="UI\QM\Pages\Menus.cs" />
-		<Compile Include="UI\QM\QMStyling.cs" />
 		<Compile Include="UI\QM\TopMenu.cs" />
 	</ItemGroup>
 

@@ -35,7 +35,7 @@ namespace onnxware.Components.Tools
                 }
                 else
                 {
-                    image = Path.Combine(Environment.CurrentDirectory, Variables.dataPath, image);
+                    image = Path.Combine(Environment.CurrentDirectory, Variables.DataPath, image);
                     overrideSprite = SpriteUtil.LoadFromDisk(image, 100f);
                 }
                 Variables.userInterface.transform.Find(objectName).transform.Find("Background").GetComponent<Image>().overrideSprite = overrideSprite;
@@ -59,7 +59,7 @@ namespace onnxware.Components.Tools
                 }
                 else
                 {
-                    image = Path.Combine(Environment.CurrentDirectory, Variables.dataPath, image);
+                    image = Path.Combine(Environment.CurrentDirectory, Variables.DataPath, image);
                     overrideSprite = SpriteUtil.LoadFromDisk(image, 100f);
                 }
                 Variables.userInterface.transform.Find(objectName).GetComponent<Image>().overrideSprite = overrideSprite;
@@ -128,6 +128,6 @@ namespace onnxware.Components.Tools
             return Sprite.Create(texture2D, rect, new Vector2(0.5f, 0.5f), pixelsPerUnit, 0U, 0, Vector4.zero, false);
         }
 
-        public static Sprite LoadSpriteViaVRCPath(string imgName, float pixelsPerUnit = 100f) => LoadFromDisk(Path.Combine(Environment.CurrentDirectory, Variables.dataPath, imgName), pixelsPerUnit);
+        public static Sprite LoadSpriteViaVRCPath(string imgName, float pixelsPerUnit = 100f) => LoadFromDisk(Path.Combine(Environment.CurrentDirectory, Variables.DataPath, imgName), pixelsPerUnit);
     }
 }

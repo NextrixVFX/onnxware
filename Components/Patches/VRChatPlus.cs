@@ -13,6 +13,8 @@ namespace onnxware.Components.Patches
                 typeof(VRCPlusStatus).GetProperty(nameof(VRCPlusStatus.prop_Object1PublicTBoTUnique_1_Boolean_0)).GetGetMethod(), // vrchat boolean that represents if you have vrc+
                 postfix: new HarmonyMethod(typeof(VRChatPlus).GetMethod(nameof(VRCPlusOverride), BindingFlags.Static | BindingFlags.NonPublic)) // make ur status true
             );
+            
+            ConsoleAPI.Logger.Msg("Enabled VRChat Plus", ConsoleAPI.Logger.LoggerLevel.Info, ConsoleColor.Magenta);
         }
 
         private static void VRCPlusOverride(ref Object1PublicTBoTUnique<bool> __result)
@@ -22,7 +24,6 @@ namespace onnxware.Components.Patches
             // change the boolean to true (indicating you have vrc+)
             __result.prop_T_0 = true;
             __result.field_Protected_T_0 = true;
-            ConsoleAPI.Logger.Msg("Enabled VRChat Plus", ConsoleAPI.Logger.LoggerLevel.Info, ConsoleColor.Magenta);
         }
     }
 }

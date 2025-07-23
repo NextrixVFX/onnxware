@@ -3,7 +3,6 @@ using onnxware.UI.QM;
 using onnxware;
 using onnxware.Components.Tools;
 using onnxware.Components.Patches;
-using System.Reflection;
 using onnxware.Globals;
 
 [assembly: MelonInfo(typeof(OnnxEntry), "onnxware", "0.0.1", "nextrixvfx", null)]
@@ -83,10 +82,10 @@ namespace onnxware
             // Exploits
             Components.Exploits.LoudMic.Toggle(false);
 
+            
             ConsoleAPI.Logger.Msg("All Cheats Disabled.");
 
             // ConsoleAPI
-
             if (Variables.Debug)
                 ConsoleAPI.Initialize.FreeConsole();
 

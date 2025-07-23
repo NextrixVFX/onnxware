@@ -16,6 +16,13 @@ namespace onnxware.ButtonAPI
     {
         public const string QuickMenu_Dashboard_Menu = $"{BasePaths.QuickMenuParent}Menu_Dashboard/";
         public const string QuickMenu_DashboardViewport_Menu = $"{QuickMenu_Dashboard_Menu}ScrollRect/Viewport/VerticalLayoutGroup/";
+        public const string QuickMenu_SelectedUser_Menu = $"{BasePaths.QuickMenuParent}Menu_SelectedUser_Local/ScrollRect/Viewport/VerticalLayoutGroup/";
+    }
+
+    public class DropdownPaths
+    {
+        public const string QuickMenu_UserActions_Dropdown = $"{MenuPaths.QuickMenu_SelectedUser_Menu}QM_Foldout_UserActions/";
+        public const string QuickMenu_UserActions_AvatarButtons = $"{MenuPaths.QuickMenu_SelectedUser_Menu}Buttons_AvatarActions/";
     }
 
     public class EnumPaths

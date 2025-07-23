@@ -59,8 +59,8 @@ namespace onnxware.ButtonAPI.QM
 
         private void Initialize(float btnXLocation, float btnYLocation, string btnText, Action btnAction, string tooltip, Sprite sprite, bool halfBtn, Sprite bgImage = null)
         {
-            if (parent == null)
-                parent = ApiUtils.QuickMenu.transform.Find("CanvasGroup/Container/Window/QMParent/" + btnQMLoc).transform;
+            parent = ApiUtils.QuickMenu.transform.Find("CanvasGroup/Container/Window/QMParent/" + btnQMLoc).transform;
+            
             button = UnityEngine.Object.Instantiate(ApiUtils.GetQMButtonTemplate(), parent, true);
             button.transform.Find("Badge_MMJump").gameObject.SetActive(false);
             button.name = $"{ApiUtils.Identifier}-Single-Button-{ApiUtils.RandomNumbers()}";

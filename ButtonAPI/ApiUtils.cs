@@ -7,7 +7,7 @@ namespace onnxware.ButtonAPI.QM
 {
     public static class ApiUtils
     {
-        public static string Identifier = Globals.Variables.dataPath;
+        public static string Identifier = Globals.Variables.DataPath;
         public static readonly System.Random random = new System.Random();
 
         #region Component Instances

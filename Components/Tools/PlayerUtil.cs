@@ -4,6 +4,7 @@ using VRC;
 using VRC.SDKBase;
 using UnityEngine;
 using System.Collections;
+using onnxware.ButtonAPI;
 
 namespace onnxware.Components.Tools
 {
@@ -11,14 +12,18 @@ namespace onnxware.Components.Tools
     {
         // Get all players in an instance
         public static Player[] GetAllPlayers() => UnityEngine.Object.FindObjectsOfType<Player>(); //  PlayerManager.prop_PlayerManager_0.field_Private_List_1_Player_0.ToArray();
-
         // Get Specific Player
         public static Player GetPlayerByDisplayName(string name) => GetAllPlayers().ToList().Find(plr => (plr.field_Private_APIUser_0.displayName == name));
-
         public static Player GetPlayerByID(string id) => GetAllPlayers().ToList().Find(plr => (plr.field_Private_APIUser_0.id == id));
 
         // Get Local Player
         public static VRCPlayerApi GetLocalPlayer() => Networking.LocalPlayer;
+        
+        public static Player GetSelectedPlayer()
+        {
+            GameObject nonFriedLabel = GameObject.Find(LabelPaths.QuickMenu_NonFriendList_Label);
+            return GetPlayerByDisplayName(nonFriedLabel.GetComponent<TextMeshProUGUIEx>().text);
+        }
 
         public static void OnPlayerJoin(Action<IPlayer> action)
         {
