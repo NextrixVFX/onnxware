@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("onnxware")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e09a7ed2b809930c5081019aa6ed0840aa5735e0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a95a6773376ac6d925d9e3192bbc9c4934ce6ad5")]
 [assembly: System.Reflection.AssemblyProductAttribute("onnxware")]
 [assembly: System.Reflection.AssemblyTitleAttribute("onnxware")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
