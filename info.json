@@ -1,7 +1,7 @@
 {
   "gameSlug": "vrchat",
   "gameName": "VRChat",
-  "mappingUrl": "https://github.com/killslvt/StellarV3External/raw/refs/heads/master/DeobfuscationMap.csv.gz",
+  "mappingUrl": "https://github.com/NextrixVFX/onnxware/raw/refs/heads/main/DeobfuscationMap.csv.gz",
   "mappingFileSHA512": "5ebc7a72b6c085b729250baeb7ed727f8d26306566251cfae9b1a2200c0a6e83f7275820739fc8c591ac0fc0ab7578115aa4c2c22fc5abaaa1630bce4f252e6f",
   "forceCpp2IlVersion": null,
   "forceUnhollowerVersion": null,
